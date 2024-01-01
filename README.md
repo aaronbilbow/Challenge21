@@ -24,11 +24,7 @@ The neural network model consists of one input layer, two hidden layers with 128
 #### Achieving Target Model Performance:
 
 The initial model achieved an accuracy of around 73% after 100 epochs. To improve performance, adjustments were made to the architecture, learning rate, and the number of epochs, but the accuracy never achieved greater than 73%.
-#### Steps to Increase Model Performance:
 
-Increased the number of neurons in the hidden layers.
-Added an additional hidden layer to capture more complex patterns.
-Adjusted the learning rate to enhance convergence.
-Increased the number of epochs during training.
+
 ###  Summary:
-The deep learning model showed improvement with the adjusted architecture and training parameters, achieving an accuracy of over 75%. However, further optimization may be explored by experimenting with different architectures, regularization techniques, or additional feature engineering.
+The deep learning model showed no improvement with my knowledge levels, i think with further time and study using these learning models i may have been able to achiev higher returns.
