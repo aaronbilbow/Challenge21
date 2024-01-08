@@ -23,7 +23,8 @@ Neurons, Layers, and Activation Functions:
 The neural network model consists of one input layer, two hidden layers with 128 and 64 neurons, and an output layer with 1 neuron. The activation function used is ReLU for the hidden layers and Sigmoid for the output layer. This configuration was chosen to create a model with sufficient capacity for the complexity of the data.
 #### Achieving Target Model Performance:
 
-The initial model achieved an accuracy of around 73% after 100 epochs. To improve performance, adjustments were made to the architecture, learning rate, and the number of epochs, but the accuracy never achieved greater than 73%.
+The initial model achieved an accuracy of around 73% after 100 epochs. To improve performance, adjustments were made to the architecture, learning rate, and the number of epochs, but the accuracy never achieved greater than 73%. I ran through numerous different learning scenarios with all different models and changed numerous different functions i.e, 100 Epochs down to 10, 15, 20, 50, 200 etc no change to the %. I have tried to change the cutoff_value from 500 to 200 and then made my way back up to as high as 1200 all with very little difference to the outcome. cutoff_value_classification was adjusted from 1000 to as low possible and then to as high as 4000 with the model not seeing a significant change. 
+**Hopefully this beeter explains the different models i have tried**
 
 
 ###  Summary:
